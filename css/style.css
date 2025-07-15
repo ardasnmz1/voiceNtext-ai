@@ -1,0 +1,95 @@
+/* Profile and Settings Styles */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.profile-stats p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.profile-stats span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Theme Styles */
+.theme-light {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.theme-light .chat-container {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.theme-light .ai-message {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.theme-dark {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.theme-dark .chat-container {
+    background-color: #343a40;
+    border-color: #495057;
+}
+
+.theme-dark .ai-message {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.theme-dark .modal-content {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.theme-dark .modal-header {
+    border-bottom-color: #495057;
+}
+
+.theme-dark .modal-footer {
+    border-top-color: #495057;
+}
+
+.theme-dark .form-control {
+    background-color: #495057;
+    border-color: #6c757d;
+    color: #f8f9fa;
+}
+
+.theme-dark .form-control:focus {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.theme-dark .form-label {
+    color: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .chat-container {
+        height: 60vh;
+    }
+    
+    .user-message,
+    .ai-message {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

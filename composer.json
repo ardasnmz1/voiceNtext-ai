@@ -1,0 +1,7 @@
+{
+    "name": "voice-ai/app",
+    "description": "Voice AI Application",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
